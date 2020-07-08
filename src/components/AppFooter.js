@@ -4,7 +4,7 @@ import "../App.css";
 function AppFooter() {
   return (
     <footer className="App-footer">
-      <h3>This is my footer</h3>
+      <h4>Mathew Outing - Software Engineer</h4>
     </footer>
   );
 }
