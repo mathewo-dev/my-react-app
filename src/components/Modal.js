@@ -32,8 +32,8 @@ export default class Modal extends Component {
                           continue shopping
                         </ButtonContainer>
                       </Link>
-                      <Link to="/">
-                        <ButtonContainer onClick={() => closeModal()}>
+                      <Link to="/cart">
+                        <ButtonContainer cart onClick={() => closeModal()}>
                           go to cart
                         </ButtonContainer>
                       </Link>
