@@ -9,6 +9,7 @@ import Details from "./components/Details";
 import Cart from "./components/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
+import About from "./components/About";
 
 function App() {
   return (
@@ -17,11 +18,11 @@ function App() {
       <Switch>
         <Route exact path="/" component={ProductList} />
         <Route path="/details" component={Details} />
+        <Route path="/about" component={About} />
         <Route path="/Cart" component={Cart} />
         <Route component={Default} />
       </Switch>
       <Modal />
-      <AppFooter />
     </div>
   );
 }
